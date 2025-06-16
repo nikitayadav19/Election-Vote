@@ -39,18 +39,18 @@ An end-to-end online election voting application built with the **MERN stack** (
 ## 🗂️ Folder Structure
 
 
-├── client/ # React frontend
-│ ├── pages/ # Login, Signup, Home, etc.
-│ ├── user/ # Voter dashboard, vote, profile
-│ ├── admin/ # Admin dashboard, candidate mgmt
-│ └── ProtectedRoute.jsx # Role-based route protection
-├── server/ # Express backend
-│ ├── models/ # User, Candidate schemas
-│ ├── routes/ # API routes (auth, vote, admin)
-│ ├── middleware/ # JWT verification, roles
-│ └── server.js # Entry point
-├── .env.example # Environment variable template
-├── README.md # You're here!
+      ├── client/ # React frontend
+      │ ├── pages/ # Login, Signup, Home, etc.
+      │ ├── user/ # Voter dashboard, vote, profile
+      │ ├── admin/ # Admin dashboard, candidate mgmt
+      │ └── ProtectedRoute.jsx # Role-based route protection
+      ├── server/ # Express backend
+      │ ├── models/ # User, Candidate schemas
+      │ ├── routes/ # API routes (auth, vote, admin)
+      │ ├── middleware/ # JWT verification, roles
+      │ └── server.js # Entry point
+      ├── .env.example # Environment variable template
+      ├── README.md # You're here!
 
 
 ##  🔐 Auth & Security
